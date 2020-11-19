@@ -24,7 +24,7 @@ if (mysqli_connect_errno($conn))
 $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 ?>
 <center>
-<table class="table table-dark table-striped"" style="width:800px">
+<table class="table table-hover table-bordered table-center" style="width:800px">
   <tr class="table-primary" >
     <th>Name</th>
     <th>Comment</th>
@@ -47,7 +47,7 @@ while($Result = mysqli_fetch_array($res))
 <?php
 mysqli_close($conn);
 ?>
-<a href="https://intanon.azurewebsites.net/form.html" class="btn btn-info">add</a>
+<a href="https://intanon.azurewebsites.net//form.html" class="btn btn-info">add</a>
 <a href="https://intanon.azurewebsites.net/form_edit.html" class="btn btn-warning">edit</a>
 <a href="https://intanon.azurewebsites.net/form_delete.html" class="btn btn-danger">delete</a>
 </body>
