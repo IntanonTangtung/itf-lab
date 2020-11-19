@@ -16,7 +16,7 @@
 <?php
 
 $conn = mysqli_init();
-mysqli_real_connect($conn, 'tanadon.mysql.database.azure.com', 'tanadonparosin@tanadon', 'Nexus404', 'itflab', 3306);
+mysqli_real_connect($conn, 'lab63070191.mysql.database.azure.com', 'Intanon@lab63070191', 'Efc23b2f', 'itflab', 3306);
 if (mysqli_connect_errno($conn))
 {
     die('Failed to connect to MySQL: '.mysqli_connect_error());
