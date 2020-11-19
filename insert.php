@@ -32,7 +32,7 @@
 
 
     if (mysqli_query($conn, $sql)) {
-      ?><div class="display-3 text-center mb-3">Thank For Filling Your Information</div>
+      ?><div class="display-12 text-center mb-12">Thank For Filling Your Information</div>
        else {
         echo "Error: " . $sql . "<br>" . mysqli_error($conn);
       }
