@@ -17,7 +17,7 @@
     <?php
 
     $conn = mysqli_init();
-    mysqli_real_connect($conn, 'itflab13.mysql.database.azure.com', 'it63070160@itflab13', 'ITFlab13', 'itflab', 3306);
+    mysqli_real_connect($conn, 'lab63070191.mysql.database.azure.com', 'Intanon@lab63070191', 'Efc23b2f', 'itflab', 3306);
     if (mysqli_connect_errno($conn))
     {
         die('Failed to connect to MySQL: '.mysqli_connect_error());
@@ -32,7 +32,7 @@
 
 
     if (mysqli_query($conn, $sql)) {
-      ?><div class="display-3 text-center mb-3">Added Successfully</div>
+      ?><div class="display-3 text-center mb-3">Thanks For Filling Your Information</div>
       <div class="text-center"><a href="index.php" class="btn btn-warning"><i class="fa fa-home"></i></a></div><?php
       } else {
         echo "Error: " . $sql . "<br>" . mysqli_error($conn);
