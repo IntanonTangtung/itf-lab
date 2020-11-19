@@ -31,8 +31,8 @@
     $sql = "INSERT INTO guestbook (Name, Comment) VALUES ('$name', '$comment')";
 
 
-    if (mysqli_query($conn, $sql)) {
-      ?><div class="display-3 text-center mb-3">Thanks For Filling Your Information</div>
-    ?>
+    if (mysqli_query($conn, $sql)) 
+      <div class="display-3 text-center mb-3">Thanks For Filling Your Information</div>
+    
   </body>
 </html>
